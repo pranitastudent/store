@@ -218,4 +218,5 @@ def order(order_id):
     return render_template('admin/view-order.html', order=order, admin=True)
 
 if __name__ == '__main__':
-    app.run()
+    app
+    .run()
